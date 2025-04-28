@@ -72,9 +72,12 @@ Kelebihan utama:
 Beberapa tantangan:
 - Error handling belum kompleks.
 - Masih perlu disesuaikan untuk skala produksi (misalnya dengan autentikasi atau keamanan tambahan).
-Kesimpulan
+
+  
+# Kesimpulan
 WebSocket memberikan pendekatan efisien untuk komunikasi dua arah yang cepat dan responsif di aplikasi web. Melalui eksperimen ini, terbukti bahwa membangun fitur real-time seperti chat tidaklah rumit jika menggunakan WebSocket. Teknologi ini sangat relevan untuk kebutuhan aplikasi modern yang menuntut kecepatan dan keterhubungan langsung antara pengguna dan sistem.
-Referensi
+
+# Referensi
 - https://developer.mozilla.org/en-US/docs/Web/API/WebSocket
 - https://www.npmjs.com/package/ws
 - Eksperimen pribadi dan implementasi langsung
