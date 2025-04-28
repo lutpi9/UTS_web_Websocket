@@ -35,13 +35,14 @@ Kapan WebSocket Digunakan?
 
 # Tujuan dan Metode
 
-Tujuan utama dari eksperimen ini adalah memahami cara kerja WebSocket secara praktis melalui pembuatan aplikasi chat sederhana. Eksperimen dilakukan menggunakan Node.js di sisi server dan HTML/JavaScript di sisi klien.
+Tujuan utama dari eksperimen ini adalah memahami cara kerja WebSocket secara praktis melalui pembuatan aplikasi chat sederhana. 
+Eksperimen dilakukan menggunakan Node.js di sisi server dan HTML/JavaScript di sisi klien.
 Alat dan Teknologi
  Node.js
 - Library WebSocket (ws)
 - HTML dan JavaScript
-- 
-Langkah Implementasi
+  
+# Langkah Implementasi
 1.	Inisialisasi proyek dan instal library WebSocket:
    ![WhatsApp Image 2025-04-28 at 11 01 11](https://github.com/user-attachments/assets/32102147-8ecd-4417-9080-cc5e8d17d67f)
 
@@ -61,7 +62,9 @@ Langkah Implementasi
 
  
 5. Uji fungsi real-time dengan membuka halaman HTML di dua tab atau browser berbeda dan kirimkan pesan. Pesan akan muncul langsung tanpa refresh.
-Analisis Hasil
+
+   
+# Analisis Hasil
 Dari eksperimen ini, koneksi WebSocket berhasil terhubung antara browser dan server. Pertukaran pesan berlangsung instan dan sinkron di kedua sisi.
 
 Kelebihan utama:
