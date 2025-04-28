@@ -1,26 +1,35 @@
-Membangun Aplikasi Web Real-Time Sederhana dengan WebSocket: Eksperimen Praktis
-Pendahuluan
+# Membangun Aplikasi Web Real-Time Sederhana dengan WebSocket: Eksperimen Praktis
+
+# Pendahuluan
 Di era web modern saat ini, pengguna semakin mengharapkan interaksi instan dan dinamis tanpa perlu memuat ulang halaman. Mulai dari aplikasi pesan singkat hingga notifikasi otomatis, semua membutuhkan mekanisme komunikasi real-time yang efisien. WebSocket hadir sebagai solusi praktis yang memungkinkan pertukaran data dua arah antara klien dan server tanpa harus membuat koneksi baru berulang kali.
 
-Dalam artikel ini, saya akan membahas konsep dasar WebSocket dan menunjukkan bagaimana kita bisa membuat aplikasi chat sederhana berbasis WebSocket. Semua eksperimen dilakukan secara langsung untuk memperkuat pemahaman teknis yang relevan dengan implementasi dunia nyata.
-Pembahasan Utama
-Konsep Dasar WebSocket
+saya akan membahas konsep dasar WebSocket dan menunjukkan bagaimana kita bisa membuat aplikasi chat sederhana berbasis WebSocket. Semua eksperimen dilakukan secara langsung untuk memperkuat pemahaman teknis yang relevan dengan implementasi dunia nyata.
+
+# Pembahasan Utama
+
+# Konsep Dasar WebSocket
+
 WebSocket merupakan protokol komunikasi berbasis TCP yang memungkinkan data mengalir dua arah secara terus-menerus antara server dan browser. Tidak seperti HTTP yang bersifat satu arah (klien minta, server balas), WebSocket mempertahankan koneksi tetap terbuka, sehingga memungkinkan keduanya saling bertukar informasi kapan saja.
-Perbedaan WebSocket dan HTTP
+
+# Perbedaan WebSocket dan HTTP
 Fitur	HTTP	WebSocket
 Jenis Koneksi	Satu arah (client-server)	Dua arah (client-server)
 Efisiensi untuk Real-Time	Rendah (butuh polling)	Tinggi (langsung saling kirim data)
 Overhead Data	Banyak header dikirim	Minimal setelah awal koneksi
 Kapan WebSocket Digunakan?
-- Sistem percakapan daring (live chat)
-- Permainan daring multiplayer
-- Panel kontrol atau dashboard yang menampilkan data langsung
-- Aplikasi kolaboratif seperti Google Docs atau Trello
-Eksperimen: Chat Real-Time Menggunakan WebSocket
-Tujuan dan Metode
+1. Sistem percakapan daring (live chat)
+2. Permainan daring multiplayer
+3. Panel kontrol atau dashboard yang menampilkan data langsung
+4. Aplikasi kolaboratif seperti Google Docs atau Trello
+
+   
+# Eksperimen: Chat Real-Time Menggunakan WebSocket
+
+# Tujuan dan Metode
+
 Tujuan utama dari eksperimen ini adalah memahami cara kerja WebSocket secara praktis melalui pembuatan aplikasi chat sederhana. Eksperimen dilakukan menggunakan Node.js di sisi server dan HTML/JavaScript di sisi klien.
 Alat dan Teknologi
-- Node.js
+ Node.js
 - Library WebSocket (ws)
 - HTML dan JavaScript
 Langkah Implementasi
