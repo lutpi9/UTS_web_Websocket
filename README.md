@@ -12,10 +12,9 @@ saya akan membahas konsep dasar WebSocket dan menunjukkan bagaimana kita bisa me
 WebSocket merupakan protokol komunikasi berbasis TCP yang memungkinkan data mengalir dua arah secara terus-menerus antara server dan browser. Tidak seperti HTTP yang bersifat satu arah (klien minta, server balas), WebSocket mempertahankan koneksi tetap terbuka, sehingga memungkinkan keduanya saling bertukar informasi kapan saja.
 
 # Perbedaan WebSocket dan HTTP
-Fitur	HTTP	WebSocket
-Jenis Koneksi	Satu arah (client-server)	Dua arah (client-server)
-Efisiensi untuk Real-Time	Rendah (butuh polling)	Tinggi (langsung saling kirim data)
-Overhead Data	Banyak header dikirim	Minimal setelah awal koneksi
+HTTP menggunakan koneksi satu arah antara client dan server, sementara WebSocket menggunakan koneksi dua arah yang memungkinkan komunikasi saling mengirim data secara langsung. Untuk kebutuhan real-time, HTTP kurang efisien karena membutuhkan mekanisme polling untuk memperbarui data, sedangkan WebSocket jauh lebih efisien karena dapat langsung mengirim dan menerima data. Selain itu, HTTP membawa banyak overhead dalam bentuk header pada setiap permintaan, sementara WebSocket hanya memerlukan overhead minimal setelah koneksi awal terbentuk.
+
+
 Kapan WebSocket Digunakan?
 1. Sistem percakapan daring (live chat)
 2. Permainan daring multiplayer
@@ -32,16 +31,25 @@ Alat dan Teknologi
  Node.js
 - Library WebSocket (ws)
 - HTML dan JavaScript
+- 
 Langkah Implementasi
 1.	Inisialisasi proyek dan instal library WebSocket:
+   ![WhatsApp Image 2025-04-28 at 11 01 11](https://github.com/user-attachments/assets/32102147-8ecd-4417-9080-cc5e8d17d67f)
+
  
 2.	Buat file server.js untuk menangani koneksi:
+   ![WhatsApp Image 2025-04-28 at 11 02 47](https://github.com/user-attachments/assets/3a4d2483-e748-429a-b63c-121cad4ac68e)
+
  
 
 3.	Siapkan halaman HTML dengan JavaScript yang terhubung ke server:
+   ![WhatsApp Image 2025-04-28 at 11 04 17](https://github.com/user-attachments/assets/78357237-ec43-4aab-a0fe-a0bf41890536)
+
  
 
 4.	Jalankan server:
+   ![WhatsApp Image 2025-04-28 at 11 04 37](https://github.com/user-attachments/assets/8678fdf7-f81b-4443-9d6b-4d20d6969839)
+
  
 5. Uji fungsi real-time dengan membuka halaman HTML di dua tab atau browser berbeda dan kirimkan pesan. Pesan akan muncul langsung tanpa refresh.
 Analisis Hasil
