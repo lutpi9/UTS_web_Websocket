@@ -4,7 +4,7 @@
 | *Nama*           |         Lutpiah Ainus Shiddik       |
 | *NIM*            |          312310474         |
 | *Kelas*          |          TI.23.A.5         |
-| *Mata Kuliah*    |     Pemrograman Web1     |
+| *Mata Kuliah*    |     Pemrograman Web2     |
 
 
 # Membangun Aplikasi Web Real-Time Sederhana dengan WebSocket: Eksperimen Praktis
